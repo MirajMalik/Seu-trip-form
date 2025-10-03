@@ -28,14 +28,14 @@
 }
 
 .input-items{
-    background-color: rgb(70, 64, 35);
     display: flex;
     align-items: center;
     justify-content: center;
     /* background-color: aqua; */
-    max-width: 70%;
+
+    max-width: 100%;
     margin: 20px;
-    padding: 20px;
+    padding: 0px 150px;
 
 }
 
@@ -55,11 +55,12 @@ h3{
 
 input, textarea{
     display: block;
-    width: 100%;
+    width: 350px;
     margin: 11px 0px;
     padding: 7px;
     font-size: 14px;
     border: 2px solid black;
+    border-radius: 5px;
 
 }
 
@@ -75,6 +76,11 @@ input, textarea{
     border: 1px solid grey;
     border-radius: 8px;
     margin: 0px 7px;
-    background-color: rgb(186, 199, 137);
+    background-color: rgb(204, 83, 204);
+    font-weight: bold;
+}
+
+.submitMsj{
+    color:red
 }
 
